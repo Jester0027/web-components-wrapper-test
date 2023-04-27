@@ -1,0 +1,35 @@
+{
+  "name": "react-wrapper",
+  "version": "0.0.0",
+  "description": "> TODO: description",
+  "author": "Jester0027 <paul.ned@outlook.com>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "types": "dist/types/index.d.ts",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "test": "node ./__tests__/react-wrapper.test.js",
+    "build": "npm run tsc",
+    "tsc": "tsc -p ."
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "web-components": "*"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "typescript": "^5.0.4"
+  }
+}
